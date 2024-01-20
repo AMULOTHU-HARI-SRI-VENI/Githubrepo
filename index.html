@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <label for="username">Enter GitHub Username:</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <button onclick="getRepositories()">Get Repositories</button>
+
+        <div id="loader" class="loader"></div>
+
+        <div id="repositories"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
